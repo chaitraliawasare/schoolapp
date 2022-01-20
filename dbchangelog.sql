@@ -1,4 +1,4 @@
 -- liquibase formatted sql
 
--- changeset liquibase:26
+-- changeset liquibase:30
 INSERT INTO info_dept(id,name) VALUES ('ENV','Environmental')
