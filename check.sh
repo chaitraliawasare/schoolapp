@@ -6,9 +6,9 @@
 a= pgrep -f '/usr/bin/python3 manage.py runserver 0:8000'
 echo $a
 
-if [ $a ]
+if [ $a = 0 ]
 then
-   echo "Running"
-else
    echo "Not Running"
+else
+   echo "Running"
 fi
