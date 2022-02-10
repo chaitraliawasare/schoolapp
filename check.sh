@@ -8,7 +8,8 @@ echo $a
 #$b=0
 #$c=$a+$b
 
-if [ "$a" = "   " ]
+if [ "$a" = "
+" ]
 then
    echo "Not Running"
 else
