@@ -1,4 +1,4 @@
 -- liquibase formatted sql
 
--- changeset liquibase:37
-INSERT INTO info_dept(id,name) VALUES ('Mic1','Microprocessor1')
+-- changeset liquibase:38
+INSERT INTO info_dept(id,name) VALUES ('Mic2','Microprocessor2')
